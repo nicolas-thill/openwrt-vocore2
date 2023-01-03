@@ -24,3 +24,8 @@
 &firmware {
 	reg = <0x50000 0xfb0000>;
 };
+
+&sdhci {
+	status = "okay";
+	mediatek,cd-poll;
+};
